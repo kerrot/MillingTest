@@ -1,0 +1,22 @@
+﻿已經開始建置於 2015/10/08 22:22:54。
+     1>節點 2 (Rebuild 目標) 上的專案 "D:\Test2\DixelTest\DixelTest\DixelTest.vcxproj"。
+     1>ClCompile:
+         D:\Tool\VS2013\VC\bin\CL.exe /c /I"irrlicht-1.8.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Material.cpp
+         Material.cpp
+     1>d:\test2\dixeltest\dixeltest\material.cpp(10): warning C4018: '<' : signed/unsigned 不相符
+         main.cpp
+     1>d:\test2\dixeltest\dixeltest\main.cpp(62): warning C4244: '正在初始化' : 將 'irr::f32' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>d:\test2\dixeltest\dixeltest\main.cpp(69): warning C4244: '正在初始化' : 將 'irr::f32' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>d:\test2\dixeltest\dixeltest\main.cpp(113): warning C4244: '引數' : 將 'irr::f32' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>d:\test2\dixeltest\dixeltest\main.cpp(514): warning C4305: '引數' : 從 'double' 轉換為 'irr::f32'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+         正在產生程式碼...
+       Link:
+         D:\Tool\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Test2\DixelTest\Debug\DixelTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"irrlicht-1.8.1\lib\Win32-visualstudio" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Test2\DixelTest\Debug\DixelTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Test2\DixelTest\Debug\DixelTest.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         Debug\Material.obj
+     1>main.obj : warning LNK4075: 忽略 '/EDITANDCONTINUE'，由於 '/SAFESEH' 規格
+         DixelTest.vcxproj -> D:\Test2\DixelTest\Debug\DixelTest.exe
+     1>專案 "D:\Test2\DixelTest\DixelTest\DixelTest.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.42
